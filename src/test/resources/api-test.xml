@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API" verbose="1">
+    <parameter name="common.param" value="available in all test tags"/>
+    <test name="API test">
+        <classes>
+            <class name="tests.FirstTest">
+                <!--<methods>-->
+                    <!--<include name="stopCacheScheduler"/>-->
+                    <!--<include name="startCacheScheduler"/>-->
+                <!--</methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
